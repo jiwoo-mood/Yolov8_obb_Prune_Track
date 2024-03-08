@@ -1,0 +1,9 @@
+path: ./datasets/uav # dataset root dir
+train: train.txt #images   # train images (relative to 'path') 
+val: val.txt #images  # val images (relative to 'path') 
+test: val.txt  #images # test images (optional)
+
+
+nc: 1  # number of classes
+names: ['car',]  
+
